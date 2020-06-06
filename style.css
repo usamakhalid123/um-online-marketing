@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Luckiest+Guy&family=Raleway&family=Roboto:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+.menubar{
+    /* background: linear-gradient(#212121, #344953 ) !important; */
+    background-color: #344953;
+    /* background: linear-gradient(to bottom right, black,grey); !important; */
+    color: white;
+    /* font-size: 35px; */
+    font-weight: bold;
+    text-align: center;
+    padding: 14px;
+    /* font-family: 'Luckiest Guy', cursive; */
+    font-family: 'Courgette', cursive;
+}
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.signin{
+    color: white !important;
+    /* margin-right: 3px; */
+}
+.signup{
+    color: white !important;
+    border-left: 2px solid white;
+  padding-left: 5px;
+}
+
+.trolly{
+    font-size: 25px;
+    color: whitesmoke;
+
+}
+.search{
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: whitesmoke;
+}
+.navbar-nav{
+    padding: 10px;
+    /* background-color: indianred !important; */
+    
+}
+.navbar{
+    background:  #344953 !important;
+}
+
+
+/* .navbar-nav .nav-link{
+    font-size: 0.9em;
+    color: grey;
+    padding-right: 5px;
+    background-color: khaki !important;
+    */
+
+.navbar-nav .nav-item .nav-link{
+    padding: 5px;
+    margin-right: 10px;
+    
+    
+   
+    }
+    .nav-link{
+        color: whitesmoke !important;
+    }
+    
+    .carousel-item{
+        height: 570px;
+    }
+    .carousel-item img{
+        height: 570px;
+/*         
+            -webkit-filter: blur(2px);   
+            filter: blur(5px);
+          */
+    }
+    .product-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .firstimage{
+        width: 200px;
+        height: 200px;
+        background-image: url('images/try1.gif');
+    }
+    .button{
+        width: 200px !important;
+        
+    }
+    .card:hover{
+        box-shadow: 0px 3px 10px black;
+        transition: 0.5s;
+    }.line{
+        border-bottom: 2px solid black;
+        width: 10px;
+        height: 4px;
+
+    }
+ 
+    .odd{
+        /* width:138px; */
+        height: 140px;
+        background-color: rgb(205, 50, 63);
+    }
+    .even{
+        /* width:150px; */
+        height: 138px;
+        background-color: rgb(86, 50, 205);
+    }
+    .women_icons{
+        font-size: 60px;
+    }
+    .image3{
+        width: auto;
+        height: 400px;
+        background-size: 100% 100%;
+        background-image:url('gielcap.jpg');
+        /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+
+    }
+    .image3:hover{
+        transform: scale(1.1);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('gielcap.jpg');
+        transition: 2s ;
+    }
+    .image2{
+      width: auto;
+      height: 250px;
+      background-size: 100% 100%;
+      background-image: url('girl;3.jpg');
+    }
+    .image2:hover{
+        transform: scale(1.1);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('girl;3.jpg');
+        transition: 2s ;
+    }
+    .image1{
+        width: auto;
+      height: 250px;
+      background-size: 100% 100%;
+      background-image:url('girl4.jpg');
+
+    }
+    .image1:hover{
+        transform: scale(1.1);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('girl4.jpg');
+        transition: 2s ;
+    }
+    .image4{
+        width: auto;
+       height: 665px;
+        background-size: 100% 100%;
+        background-image: url('gilr2.jpg');
+    }
+    .image4:hover{
+        transform: scale(1.1);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('gilr2.jpg');
+        transition: 2s ;
+    }
+    .sliderimage1{
+        background-image: url('perfume2.png');
+        width: 200px;
+        height: 200px;
+        background-size: 100% 100%;
+         
+    }
+    .sliderimage2{
+        background-image:url('bag.png');
+        width: auto;
+        height: 200px;
+        background-size: 100% 100%;
+    }
+    .sliderimage3{
+        background-image: url('perfume.jpg');
+        width: auto;
+        height: 200px;
+        background-size: 100% 100%;
+    }
+    .sliderimage4{
+        background-image: url('brushes.png');
+        width: auto;
+        height: 200px;
+        background-size: 100% 100%;
+    }
+    .sliderimage5{
+        background-image: url('sandel.png');
+        width: auto;
+        height: 200px;
+        background-size: 100% 100%;
+    }
+    .sliderimage6{
+        background-image: url('creame.png');
+        width: auto;
+        height: 200px;
+        background-size: 100% 100%;
+    }
+.mimage1{
+    background-image: url('final\ men\ shirts.jpg');
+    width: auto;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+    /* overflow: hidden;   */
+}
+.mimage1:hover{
+    transform: scale(1.2);
+    transition: all 1.5s ease;
+    /* overflow: hidden; */
+
+}
+.mimage2{
+    background-image: url('perfumeimage.jpg');
+    width: auto;
+    height: 250px;
+     background-size: 100% 100%;    
+}
+.mimage3{
+    background-image: url('jeansimage2.jpg');
+    width: auto;
+    height: 250px;
+     background-size: 100% 100%;   
+    
+}
+.mimage4{
+    background-image: url('kurtaimage.jpg');
+    width: auto;
+    height: 550px;
+     background-size: 100% 100%;  }
+
+.brands_icons{
+font-size: 40px;
+color: blueviolet;
+}
+.size{
+    font-size: 50px;
+}
+.footer{
+    background-color: black !important;
+}
+.stayconnectedicons{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.kidimage1{
+    background-image: url('boy2.jpg');
+    height: 555px;    
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    
+}
+.KKIDIMAG1{
+    overflow: hidden;
+}
+.kidimage1:hover{
+    
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('gilr2.jpg'); */
+    /* transition: 2s ; */
+    /* overflow: hidden; */
+    transform: scale(1.2);
+    transition: all 1.5s ease;
+}
+
+.kidimage2{
+    background-image: url('boy1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 555px;
+    width: auto;
+    
+}
+.kidimage2:hover{
+    transform: scale(1.2);
+    transition: all 1.5s ease;
+}
+.imagebackground:hover{
+    /* transform: scale(1.5);
+    transition: 2s ; */
+    background-color:rgb(165, 155, 155,0.5);
+    /* overflow: hidden; */
+}
+    
+
+.usamaproduct{
+    width: auto;
+    height: 550px;
+    box-shadow: 2px 4px 5px gray;
+} 
+.usamaproduct2{
+    width: auto;
+    height: 250px;
+    box-shadow: 2px 4px 5px gray;
+}
+.ladiesusamaproduct{
+    width: auto;
+    height: 400px;
+    box-shadow: 2px 4px 5px gray;
+
+}
+.ladiesusamaproduct2{
+    width: auto;
+    height: 660px;
+    box-shadow: 2px 4px 5px gray;
+
+}
+.usamaproductkid{
+    width: auto;
+    height: 555px;
+    box-shadow: 2px 4px 5px gray;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+    background-size: 100% 100%; 
+}
+.inner:hover img{
+    transform: scale(1.2);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.fa-mail-bulk{
+    font-size: 250px;
+    color: rgb(163, 159, 159);
+}
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue !important;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  /* width: 80%; */
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(95, 105, 95);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    
+  }
